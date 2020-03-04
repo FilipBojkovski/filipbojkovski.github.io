@@ -184,7 +184,7 @@
         font-size:5vw;
         position:relative;
         top:0px;
-        right:4%;
+        right:5%;
     }
     .footerTitle2{
         position:relative;
@@ -192,7 +192,7 @@
     .footerTitle h2{
         font-size:5vw;
         position:relative;
-        right:4%;
+        right:5%;
     }
 }
 @media screen and (max-width: 450px){
@@ -209,9 +209,22 @@
     .skills-v1 h2{
         padding-right:3%;
     }
+    .footerTitle2 h2{
+        font-size:5vw;
+        position:relative;
+        top:0px;
+        right:5.5%;
+    }
+    .footerTitle2{
+        position:relative;
+    }
+    .footerTitle h2{
+        font-size:5vw;
+        position:relative;
+        right:6%;
+    }
 }
-}
-@media screen and (max-width: 350px){
+@media screen and (max-width: 380px){
     .footerTitle2 h2{
         font-size:5vw;
         position:relative;
