@@ -211,3 +211,19 @@
     }
 }
 }
+@media screen and (max-width: 350px){
+    .footerTitle2 h2{
+        font-size:5vw;
+        position:relative;
+        top:0px;
+        right:6%;
+    }
+    .footerTitle2{
+        position:relative;
+    }
+    .footerTitle h2{
+        font-size:5vw;
+        position:relative;
+        right:6%;
+    }
+}
