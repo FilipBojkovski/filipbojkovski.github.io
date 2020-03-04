@@ -95,7 +95,7 @@
         width:50%;
     }
     #logoPic img{
-        height:10vw;
+        height:9.7vw;
     }
     #logoText1{
         font-size:1.3vw;
@@ -163,8 +163,8 @@
         width:60vw;
     }
     .mm{
-        padding-top:3.6vw;
-        padding-left:10.6vw;
+        padding-top:4vw;
+        padding-left:12vw;
     }
     .social{
         width:49.8%;
@@ -194,9 +194,17 @@
     }
     .footerTitle2 h2{
         font-size:5vw;
+        position:relative;
+        top:0px;
+        right:4%;
+    }
+    .footerTitle2{
+        position:relative;
     }
     .footerTitle h2{
         font-size:5vw;
+        position:relative;
+        right:3%;
     }
     .skills-v1 h2{
         padding-right:3%;
