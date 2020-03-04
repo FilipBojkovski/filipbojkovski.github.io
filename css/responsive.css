@@ -194,6 +194,9 @@
         position:relative;
         right:5%;
     }
+    #aboutPicture{
+        width:36%;
+    }
 }
 @media screen and (max-width: 450px){
     #welcome h1{
