@@ -180,18 +180,6 @@
         width:100%;
         height:100%;
     }
-}
-@media screen and (max-width: 450px){
-    #welcome h1{
-        font-size:4vw;
-        height:5vw;
-    }
-    #aboutText{
-        font-size:1.65vw;
-    }
-    ::placeholder{
-        font-size:3.5vw;
-    }
     .footerTitle2 h2{
         font-size:5vw;
         position:relative;
@@ -204,7 +192,19 @@
     .footerTitle h2{
         font-size:5vw;
         position:relative;
-        right:3%;
+        right:3.5%;
+    }
+}
+@media screen and (max-width: 450px){
+    #welcome h1{
+        font-size:4vw;
+        height:5vw;
+    }
+    #aboutText{
+        font-size:1.65vw;
+    }
+    ::placeholder{
+        font-size:3.5vw;
     }
     .skills-v1 h2{
         padding-right:3%;
