@@ -181,15 +181,25 @@ a{
     flex-wrap:wrap;
 }
 .projects-v1{
-    width:49%;
-    border:0.2vw outset black;
-    opacity:0.6;
+    width:48.5%;
+    border:1px solid black;
+    opacity:0.7;
+}
+.projects-v1 img{
+    height:93%;
 }
 .project-height{
     height:20vw;
 }
 .projects-v1:hover{
     opacity:1;
+}
+.project-v1-text{
+    height:7%;
+}
+.project-v1-text h2{
+    text-align: center;
+    font-size:1.5vw;
 }
 #about{
     background-color:rgba(15, 15, 15, 0.8);

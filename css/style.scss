@@ -197,6 +197,16 @@ body {
 				width: 49%;
 				border: 0.2vw outset black;
 				opacity: 0.6;
+				img{
+					height:93%;
+				}
+				.project-v1-text{
+					height:7%;
+					.project-v1-text h2{
+						text-align: center;
+						font-size:1.5vw;
+					}
+				}
 				.project-height {
 					height: 20vw;
 				}
