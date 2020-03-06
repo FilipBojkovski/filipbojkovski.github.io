@@ -212,13 +212,13 @@
         height:5vw;
     }
     #aboutText{
-        font-size:1.66vw;
+        font-size:1.64vw;
     }
     ::placeholder{
         font-size:3.5vw;
     }
     .skills-v1 h2{
-        padding-right:3%;
+        padding-right:4%;
     }
     .footerTitle2 h2{
         font-size:5vw;
@@ -259,6 +259,9 @@
         top:0px;
         right:6%;
     }
+    .skills-v1 h2{
+        padding-right:5%;
+    }
     .footerTitle2{
         position:relative;
     }
@@ -268,7 +271,7 @@
         right:6%;
     }
     #aboutText{
-        font-size:1.66vw;
+        font-size:1.7vw;
     }
     #projects-all{
         height:180vw;
