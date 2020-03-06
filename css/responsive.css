@@ -234,6 +234,23 @@
         position:relative;
         right:6%;
     }
+    .project-v1-text h2{
+        text-align: center;
+        font-size:3vw;
+    }
+    .projects-v1{
+        width:100%;
+        height:22.5%;
+        margin-bottom:10%;
+    }
+    #projects-all{
+        height:180vw;
+    }
+    .projects-v1{
+        width:100%;
+        height:21.8%;
+        margin-bottom:5%;
+    }
 }
 @media screen and (max-width: 380px){
     .footerTitle2 h2{
