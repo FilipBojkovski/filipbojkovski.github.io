@@ -173,7 +173,7 @@ a{
     padding-top:5%;
 }
 #projects-all{
-    width:85%;
+    width:75%;
     display:flex;
     flex-wrap:wrap;
     background-color:rgba(26, 25, 25, 1); 
