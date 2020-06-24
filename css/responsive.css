@@ -39,9 +39,13 @@
     }
     .skills-v1{
         width:49.7%;
-        border-right:1px solid black;
-        border-bottom:1px solid black;
         background-color:rgba(26, 25, 25, 1);
+    }
+    .special{
+        border-bottom:1px solid white;
+    }
+    .cool{
+        border-right:1px solid white;
     }
     #header #logo{
         width:40%;
@@ -169,6 +173,7 @@
         width: 70%;
         margin-left: 13%;
     }
+
 }
 @media screen and (max-width: 576px){
     .skills-v1{
@@ -176,5 +181,50 @@
         border-right:1px solid black;
         border-bottom:1px solid black;
         background-color:rgba(26, 25, 25, 1);
+    }
+    .special{
+        border-bottom:1px solid white;
+    }
+    .cool{
+        border-right:1px solid white;
+    }
+    #end{
+        height:5vw;
+    }
+}
+@media screen and (max-width: 500px){
+    .skills-v1{
+        width:100%;
+    }
+    .special{
+        border-bottom:1px solid white;
+    }
+    .cool{
+        border-right:none;
+    }
+    .rand{
+        border-bottom:1px solid white;
+    }
+    #skills-all{
+        width:50%;
+        margin:0px auto;
+        margin-top:3%;
+    }
+    #projects-all{
+        width:80%;
+        display:flex;
+        flex-wrap:wrap;
+        background-color:rgba(26, 25, 25, 1); 
+    }
+    .projects-v1{
+        width:70%;
+        border:1px solid black;
+        opacity:0.4;
+        margin:2% 0% 2% 2.7%;
+        filter: blur(1px);
+        margin:0px auto;
+    }
+    .project-height{
+        height:25vw;
     }
 }
