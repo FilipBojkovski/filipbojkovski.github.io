@@ -1,5 +1,5 @@
 /*  RESPONSIVE  */
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 992px){
     #hamburger{
         display: block;
         float:right;
@@ -13,37 +13,36 @@
     #nav{
         display:none;       
     }
-    .box{
-        height:15vw;
-    }
-    .mm{
-        padding-top:2.3vw;
-        padding-left:2.9vw;
-    }
-    .text{
-    padding-top:3%;
-    }
-    ::placeholder{
-        font-size:1.5vw;
+    #aboutMeBox-text p{
+        font-size:1.2vw;
+        padding-top:9%;
+        margin-left:17%;
     }
 }
-@media screen and (max-width: 720px){
-   .box{
-       height:18vw;
-   }
-   .mm{
-    padding-top:2.7vw;
-    padding-left:2.9vw;
-    }
-    .footerTitle2 h2{
-        font-size:2.5vw;
-    }
+@media screen and (max-width: 768px){
     #welcome{
         width:80%;
         border-radius:0%;
     }
     #welcome h1{
-        font-size:3vw;
+       font-size:3vw;
+    }
+    #skills-all{
+        margin-top:3%;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .skills-v1{
+        width:49.8%;
+        border-right:1px solid black;
+        border-bottom:1px solid black;
+        background-color:rgba(26, 25, 25, 1);
+    }
+    #skillsTitle h2{
+        font-size:2.3vw;
+    }
+    #projectsTitle h2{
+        font-size:2.3vw;
     }
 @media screen and (max-width: 650px){
     #aboutTitle h2{
@@ -51,12 +50,6 @@
     }
     #aboutTitle{
         width:7%;
-    }
-    .text{
-        padding-top:4%;
-    }
-    ::placeholder{
-        font-size:2vw;
     }
     #skillsTitle h2{
         font-size:6vw;
@@ -113,33 +106,6 @@
         height:42vw;
         width:80%;
     }
-    .kraj{
-        width:100%;
-        margin:1px;
-    }
-    .kraj2{
-        width:100%;
-        margin:1px;
-    }
-    #footer-holder{
-        width:90%;
-        display:flex;
-        flex-direction: row;
-        flex-wrap:wrap;
-    }
-    .footerTitle h2{
-        font-size:4vw;
-        padding-left:11%;
-        margin-top:10%;
-    }
-    .footerTitle2 h2{
-        font-size:4vw;
-        margin-top:10%;
-    }
-    .box{
-        width:30vw;
-        height:30vw;
-    }
     .mm{
      padding-top:3.2vw;
      padding-left:3.6vw;
@@ -155,12 +121,6 @@
     }
     .skills-v1 h2{
         padding-left:10%;
-    }
-    ::placeholder{
-        font-size:2.5vw;
-    }
-    .box{
-        width:60vw;
     }
     .mm{
         padding-top:4vw;
@@ -188,20 +148,6 @@
         width:100%;
         height:100%;
     }
-    .footerTitle2 h2{
-        font-size:5vw;
-        position:relative;
-        top:0px;
-        right:5%;
-    }
-    .footerTitle2{
-        position:relative;
-    }
-    .footerTitle h2{
-        font-size:5vw;
-        position:relative;
-        right:5%;
-    }
     #aboutPicture{
         width:36%;
     }
@@ -214,25 +160,8 @@
     #aboutText{
         font-size:1.64vw;
     }
-    ::placeholder{
-        font-size:3.5vw;
-    }
     .skills-v1 h2{
         padding-right:4%;
-    }
-    .footerTitle2 h2{
-        font-size:5vw;
-        position:relative;
-        top:0px;
-        right:5.5%;
-    }
-    .footerTitle2{
-        position:relative;
-    }
-    .footerTitle h2{
-        font-size:5vw;
-        position:relative;
-        right:6%;
     }
     .project-v1-text h2{
         text-align: center;
@@ -253,22 +182,8 @@
     }
 }
 @media screen and (max-width: 380px){
-    .footerTitle2 h2{
-        font-size:5vw;
-        position:relative;
-        top:0px;
-        right:6%;
-    }
     .skills-v1 h2{
         padding-right:5%;
-    }
-    .footerTitle2{
-        position:relative;
-    }
-    .footerTitle h2{
-        font-size:5vw;
-        position:relative;
-        right:6%;
     }
     #aboutText{
         font-size:1.7vw;
