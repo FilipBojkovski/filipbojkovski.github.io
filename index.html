@@ -9,7 +9,7 @@
         <link rel="shortcut icon" href="images/myIcon.png"/>
         <title>Portfolio | Filip Bojkovski</title>
         <meta name="author" content="Filip Bojkovski">
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/min.css"/>
         <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
         <script src="https://kit.fontawesome.com/3b6146fca4.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
     </head>
     <body>
         <header id="header" class="width100">
-            <div id="logo" class="float-left">
+            <div id="logo" class="float-left relative">
                 <div id="logoPic" class="float-left">
                     <img src="images/ja.jpg" alt="This is the logo picture"/>
                 </div>
@@ -43,38 +43,37 @@
                     <li class="float-left"><a class="bela bb1" href="#skills">Skills</a></li>
                     <li class="float-left"><a class="bela bb1" href="#projects">Projects</a></li>
                     <li class="float-left"><a class="bela bb1" href="#about">About Me</a></li>
-                    <li class="float-left"><a class="bela bb1" href="#footer">Contact</a></li>
                 </ul>
             </div>
             <div class="cleaner"></div>
-            <section id="welcome" class="bg07 center bela">
-                <h1>Welcome To My Portfolio</h1>
+            <section id="welcome" class="mojaBoja center bela">
+                <h1 class="font2">Welcome To My Portfolio</h1>
             </section>
         </header>
-        <section id="skills" class="width100 mt5">
-            <article id="skillsTitle" class="bela bb1">
-                <h2>My Skills</h2>
+        <section id="skills" class="width100 mt5 braon">
+            <article id="skillsTitle" class="text-align bela bb1 pt1 mojaBoja">
+                <h2 class="pb1 font18">My Skills</h2>
             </article>
-            <article id="skills-all" class="bg07 width100">
+            <article id="skills-all" class="mojaBoja width100">
                 <section class="skills-v1">
                     <img src="images/html.png" alt="HTML logo" class="center mt2"/>
                     <progress class="file center mt2" value="90" max="100"> 90% </progress>
-                    <h2 class="progress-bar novifont center bela mt2">90%</h2>
+                    <h2 class="progress-bar novifont text-align bela mt2">90%</h2>
                 </section>
                 <section class="skills-v1">
                     <img src="images/css.png" alt="CSS logo" class="center mt2"/>
                     <progress class="file center mt2" value="80" max="100"> 80% </progress>
-                    <h2 class="progress-bar novifont center bela mt2">80%</h2>
+                    <h2 class="progress-bar novifont text-align bela mt2">80%</h2>
                 </section>
                 <section class="skills-v1">
                     <img src="images/js.png" alt="JavaScript logo" class="center mt2"/>
                     <progress class="file center mt2" value="40" max="100"> 40% </progress>
-                    <h2 class="progress-bar novifont center bela mt2">40%</h2>
+                    <h2 class="progress-bar novifont text-align bela mt2">40%</h2>
                 </section>
                 <section class="skills-v1">
                     <img src="images/c.png" alt="C logo" class="center mt2"/>
                     <progress class="file center mt2" value="30" max="100"> 30% </progress>
-                    <h2 class="progress-bar novifont center bela mt2">30%</h2>
+                    <h2 class="progress-bar novifont text-align  bela mt2">30%</h2>
                 </section>
                 <div class="cleaner"></div>
             </article>
@@ -82,10 +81,11 @@
         <article id="projects-image">
             <img src="images/projects-paper.jpg" alt="Programming photo" class="width100"/>
         </article>
-        <section id="projects" class="center mt5">
-            <article class="projectsTitle bela bb1">
-                <h2>My Projects</h2>
+        <section id="projects" class="center mt5 braon">
+            <article class="projectsTitle text-align mojaBoja pt1 bela bb1">
+                <h2 class="pb1 font18">My Projects</h2>
             </article>
+            <article class="Holder center">
             <article id="projects-all" class="center mt5">
                 <section class="projects-v1">
                         <img src="images/project1.png" alt="Esports Site" id="hide" class="project-height center width100"/>
@@ -101,38 +101,40 @@
                         <img src="images/project4.png" alt="Calculator" id="hide3" class="project-height center width100"/>
                 </section>
             <div id="img-text">
-                <h2 class="bela novifont">STATIC | HTML 5 | CSS 3</h2>
+                <h2 class="bela relative font2 novifont">STATIC | HTML 5 | CSS 3</h2>
             </div>
             <div id="img-text1">
-                <h2 class="bela novifont">STATIC | HTML 4 | CSS 2</h2>
+                <h2 class="bela font2 relative novifont">STATIC | HTML 4 | CSS 2</h2>
             </div>
             <div id="img-text2">
-                <h2 class="bela novifont">STATIC | HTML 5 | CSS 3 | Javascript</h2>
+                <h2 class="bela font18 relative novifont">STATIC | HTML 5 | CSS 3 | Javascript</h2>
             </div>
             <div id="img-text3">
-                <h2 class="bela novifont">STATIC | HTML 5 | CSS 3 | Javascript</h2>
+                <h2 class="bela font18 relative novifont">STATIC | HTML 5 | CSS 3 | Javascript</h2>
             </div>
                 <div class="cleaner"></div>
             </article>
+        </article>
         </section>
 
-        <section id="about" class="mt5 center">
-            <article id="aboutTitle" class="center bela bb1">
-                <h2>About Me</h2>
+        <section id="about" class="mt5 center braon">
+            <article id="aboutTitle" class="text-align center mojaBoja bela bb1 ">
+                <h2 class="mt1 pb1 font2">About Me</h2>
             </article>
-            <article>
-                <section id="aboutMeBox" class="float-left">
-                    <article id="aboutMeBox-pic" class="float-left">
-                        <img src="images/about.jpg" alt="Picture of me" />
+            <article class="Holder center">
+                <section id="aboutMeBox" class="float-left pt3">
+                    <article id="aboutMeBox-pic" class="float-left height100">
+                        <img src="images/about.jpg" alt="Picture of me" class="height100" />
                     </article>
-                    <article id="aboutMeBox-text" class="float-right bela">
-                        <h2>Hello World! My name is Filip and I'm an upcoming web developer. I'm currently studying at ICT in Belgrade and it has been amazing so far. I've worked on a few projects and I am hoping to work on more in the near future. I am comfortable working on projects with other people and generally enjoy a working and fun environment. I also enjoy making music, playing video games, reading and going out with friends.</h2>
+                    <article id="aboutMeBox-text" class="float-right bela mojaBoja height100">
+                        <h2 class="pt1">Hello World! My name is Filip and I'm an upcoming web developer. I'm currently studying at ICT in Belgrade and it has been amazing so far. I've worked on a few projects and I am hoping to work on more in the near future. I am comfortable working on projects with other people and generally enjoy a working and fun environment. I also enjoy making music, playing video games, reading and going out with friends.</p>
+                        <p>&quot Look deep into nature, and then you will understand everything better.&quot ~ Albert Einstein</h2>
                     </article>
                 </section>
                 <article id="aboutMeBox-social" class="float-left bela">
-                    <section class="socialmedia bb1">
-                        <h2>Social Media</h2>
-                        <section id="socialmediabox">
+                    <section class="socialmedia mojaBoja bb1">
+                        <h2 class="text-align font18">Social Media</h2>
+                        <section id="socialmediabox" class="center">
                             <article class="mediaicons float-left">
                                 <a href="https://www.facebook.com/bojkovskifilip" target="_blank"><i class="fab fa-facebook-f fb mm"></i></a>
                             </article>
@@ -147,27 +149,31 @@
                             </article>
                         </section>
                     </section>
-                    <section class="socialmedia1 bb1">
-                        <h2>Useful Links</h2>
+                    <section class="socialmedia width100 mojaBoja">
+                        <h2 class="text-align font18">Useful Links</h2>
                         <article id="linksicons">
-                            <article class="mediaicons float-left">
-                                <a href="css/style.scss" target="_blank"><i class="fab fa-sass mm insta"></i></a>
+                            <article class="mediaicons mt5 float-left">
+                                <a href="css/style.scss" target="_blank"><i class="fab fa-sass mm bela"></i></a>
                             </article>
-                            <article class="mediaicons float-left">
-                                <a href="css/style.css" target="_blank"><i class="fab fa-css3-alt mm insta"></i></a>
+                            <article class="mediaicons mt5 float-left">
+                                <a href="css/style.css" target="_blank"><i class="fab fa-css3-alt mm bela"></i></a>
                             </article>
-                            <article class="mediaicons float-left">
-                                <a href="sitemap.xml" target="_blank"><i class="fas fa-sitemap mm insta"></i></a>
+                            <article class="mediaicons mt5 float-left">
+                                <a href="sitemap.xml" target="_blank"><i class="fas fa-sitemap mm bela"></i></a>
                             </article>
-                            <article class="mediaicons float-left">
-                                <a href="css/responsive.css" target="_blank"><i class="fab fa-resolving mm insta"></i></a>
+                            <article class="mediaicons mt5 float-left">
+                                <a href="css/responsive.css" target="_blank"><i class="fab fa-resolving mm bela"></i></a>
                             </article>
                         </article>
                     </section>
                 </article>
             </article>
         </section>
-        <section id="end"></section>
+        <section id="end" class="braon center mt5 widht100">
+            <article id="end-color" class="mojaBoja width100 pt-5">
+                <p class="text-align bela">&copy 2020 Filip Bojkovski. All Rights Reserved.</p>
+            </article>
+        </section>
         <script>
             document.getElementById("hide").addEventListener("mouseover", mouseOver);
             document.getElementById("hide").addEventListener("mouseout", mouseOut);
