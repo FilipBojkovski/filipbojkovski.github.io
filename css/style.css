@@ -172,8 +172,11 @@ a{
 #projects-image img{
     padding-top:5%;
 }
+#projects{
+    padding-bottom:2%;
+}
 #projects-all{
-    width:75%;
+    width:85%;
     display:flex;
     flex-wrap:wrap;
     background-color:rgba(26, 25, 25, 1); 
@@ -186,7 +189,7 @@ a{
     filter: blur(1px);
 }
 .project-height{
-    height:20vw;
+    height:18vw;
 }
 .projects-v1:hover{
     filter:none;
@@ -194,19 +197,19 @@ a{
     opacity: 1;
 }
 #img-text h2{
-    bottom:35.5vw;
+    bottom:34.5vw;
     left:22vw;
 }
 #img-text1 h2{
-    bottom:35.5vw;
+    bottom:34.5vw;
     left:41.7vw;
 }
 #img-text2 h2{
-    bottom:12.5vw;
+    bottom:13.5vw;
     right:15vw;
 }
 #img-text3 h2{
-    bottom:12.5vw;
+    bottom:13.5vw;
     right:1.5vw;
 }
 
