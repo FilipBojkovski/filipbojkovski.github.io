@@ -73,6 +73,9 @@ html{
 .bb1{
     border-bottom:1px solid white;
 }
+.bt1{
+    border-top:1px solid white;
+}
 .novifont{
     font-family: 'Dosis', sans-serif;
 }
@@ -159,7 +162,7 @@ a{
 }
 .skills-v1{
     width:25%;
-    border-right:1px solid black;
+    border-right:1px solid white;
     background-color:rgba(26, 25, 25, 1);
 }
 .skills-v1 img{
@@ -168,9 +171,6 @@ a{
 .file{
     color:brown;
     width:60%;
-}
-#projects-image img{
-    padding-top:5%;
 }
 #projects{
     padding-bottom:2%;
@@ -209,8 +209,9 @@ a{
     right:15vw;
 }
 #img-text3 h2{
-    bottom:13.5vw;
-    right:1.5vw;
+    top:-21vw;
+    left:-33vw;
+    font-size:2.1vw;
 }
 
 
@@ -218,7 +219,6 @@ a{
 
 #about{
     height:33vw;
-    margin-top:3%;
 }
 .Holder{
     width:90%;
