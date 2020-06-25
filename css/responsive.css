@@ -177,7 +177,7 @@
         width:49.7%;
         border-right:1px solid black;
         border-bottom:1px solid black;
-        background-color:rgba(26, 25, 25, 1);
+        background-color:var(--bg);
     }
     .special{
         border-bottom:1px solid white;
@@ -188,10 +188,14 @@
     #end{
         height:4vw;
     }
+    .skills-v1 h2{
+        font-size:3vw;
+    }
 }
 @media screen and (max-width: 500px){
     .skills-v1{
         width:100%;
+        border-right:none;
     }
     .skills-v1 img{
         width:25%;
@@ -345,4 +349,7 @@
         left:-25vw;
         font-size:4vw;
     }
+}
+@media screen and (max-width: 380px){
+
 }

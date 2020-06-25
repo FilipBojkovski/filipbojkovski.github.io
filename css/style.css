@@ -193,7 +193,7 @@ a{
 }
 .projects-v1:hover{
     filter:none;
-    transition:2s;
+    transition:0.5s;
     opacity: 1;
 }
 #img-text h2{
