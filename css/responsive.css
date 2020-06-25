@@ -189,7 +189,7 @@
         height:4vw;
     }
     .skills-v1 h2{
-        font-size:3vw;
+        font-size:3.4vw;
     }
 }
 @media screen and (max-width: 500px){
@@ -349,7 +349,4 @@
         left:-25vw;
         font-size:4vw;
     }
-}
-@media screen and (max-width: 380px){
-
 }

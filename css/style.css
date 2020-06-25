@@ -197,19 +197,20 @@ a{
     opacity: 1;
 }
 #img-text h2{
-    bottom:34.5vw;
+    bottom:33vw;
     left:22vw;
 }
 #img-text1 h2{
-    bottom:34.5vw;
+    bottom:33vw;
     left:41.7vw;
 }
 #img-text2 h2{
-    bottom:13.5vw;
+    bottom:11.7vw;
     right:15vw;
 }
 #img-text3 h2{
-    bottom:13.5vw;
+    bottom:11.7vw;
+    left:-2vw;
 }
 
 
